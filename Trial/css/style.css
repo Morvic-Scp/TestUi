@@ -1,0 +1,81 @@
+h1,h2,h3,h4,p,a{
+    font-size: 20px;
+}
+ul,li{
+    list-style: none;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+body{
+    background-color: #ebebeb;
+}
+
+nav #navm ul{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    font-size: 20px;
+    align-content: center;
+    justify-content: space-between;
+    width: 45vw;
+    align-items: center;
+}
+
+#navm1,#navm{
+    margin-left: auto  !important;
+}
+#navm ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 850px;
+
+}
+.btn-mode{
+    height: 250px;
+    border-radius: 2rem;
+    text-align: left;
+    padding: 30px;
+}
+.line{
+    width: 27px;
+    height: 3px;
+    border-radius: 1em;
+    margin: 6px;
+}
+.linepath{
+    cursor: pointer;
+    height: 50px;
+}
+.menu2{
+    justify-content: space-between;
+}
+.sectone ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.sectthree{
+    width: 20vw;
+    justify-content: space-between;
+}
+.sidemenutop{
+    padding-left: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e4e4e4;
+}
+hr{
+    margin-top: 0px;
+}
+i:hover{
+    color: rgb(77, 117, 143);
+    cursor: pointer;
+}
+.icont{
+ cursor: pointer;
+}
